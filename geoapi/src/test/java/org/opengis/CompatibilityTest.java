@@ -339,7 +339,7 @@ public final class CompatibilityTest {
      *         has not been found in the new release.
      */
     public static void main(final String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException {
-        final CompatibilityTest c = new CompatibilityTest("3.1-SNAPSHOT", "4.0-SNAPSHOT");
+        final CompatibilityTest c = new CompatibilityTest("3.1-SNAPSHOT", "4.0-M04");
         for (final IncompatibleChange change : c.acceptedIncompatibleChanges) {
             System.out.println(change.method + "=I");
         }
