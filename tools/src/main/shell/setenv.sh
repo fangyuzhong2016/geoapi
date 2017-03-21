@@ -3,7 +3,7 @@
 # This provides a single point where to update dependencies.
 # --------------------------------------------------------------
 
-export GEOAPI_VERSION=4.0-SNAPSHOT
+export GEOAPI_VERSION=4.0-M6
 export UOM_VERSION=1.0
 export JUNIT_VERSION=4.12
 export HAMCREST_VERSION=1.3

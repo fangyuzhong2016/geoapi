@@ -80,7 +80,7 @@ public class IndexGenerator extends UmlProcessor implements Comparator<TypeEleme
     /**
      * The GeoAPI version for which we are generating the content list.
      */
-    private static final String VERSION = "3.1-SNAPSHOT";
+    private static final String VERSION = "4.0-M6";
 
     /**
      * Method names that are part of Java specification.
